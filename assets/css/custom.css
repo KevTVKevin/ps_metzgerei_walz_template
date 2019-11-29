@@ -2,3 +2,123 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+/*
+header styles
+ */
+#header {
+    background: #c1c54a;
+}
+/*
+header-nav styles
+ */
+#header .header-nav {
+    background-color: #306014;
+    border: none;
+}
+#header .header-nav .blockcart {
+    background-color: transparent;
+}
+#header a {
+    color: #ededed;
+}
+.dropdown .expand-more {
+    color: #ededed;
+}
+.dropdown {
+    color: #ededed;
+}
+#header {
+    color: #ededed;
+}
+#header .header-nav .cart-preview .shopping-cart {
+    color: #ededed;
+}
+div#_desktop_language_selector:hover {
+    background: #2b2b2b;
+}
+.language-selector-wrapper {
+    padding: 0 10px;
+}
+div#_desktop_currency_selector:hover {
+    background: #2b2b2b;
+}
+.currency-selector.dropdown.js-dropdown {
+    padding: 0 10px;
+}
+#header .header-nav .currency-selector {
+    margin-left: 0;
+}
+#header .header-nav .user-info {
+    margin-left: 0;
+}
+div#_desktop_user_info:hover {
+    background: #2b2b2b;
+}
+.user-info {
+    padding: 0 10px;
+}
+#header .header-nav .blockcart {
+    margin-left: 0;
+}
+div#_desktop_cart:hover {
+    background: #2b2b2b;
+}
+.dropdown:hover .expand-more {
+    color: #ededed;
+}
+#header a:hover {
+    color: #ededed;
+}
+.btn-unstyle:focus .expand-more {
+    color: #ededed;
+}
+div#_desktop_contact_link {
+    height: 48px;
+    padding: 0 10px;
+}
+div#_desktop_contact_link:hover {
+    background: #2b2b2b;
+}
+ul.dropdown-menu.hidden-sm-down {
+    background: #2b2b2b;
+}
+ul.dropdown-menu.hidden-sm-down {
+    padding: 0;
+    border: none;
+}
+ul.dropdown-menu.hidden-sm-down li {
+    height: 33px;
+    line-height: 27px;
+}
+ul.dropdown-menu.hidden-sm-down li.current {
+    background: #484848;
+}
+ul.dropdown-menu.hidden-sm-down li:hover {
+    background: #484848;
+}
+/*
+header-nav phone styles
+ */
+@media (max-width: 767px) {
+    #header .header-nav {
+        color: #ededed;
+    }
+}
+/*
+header-top styles
+ */
+#header .header-top a[data-depth="0"] {
+    color: #306014;
+}
+#header .header-top a[data-depth="0"]:hover {
+    color: #306014;
+}
+/*
+search module
+ */
+.search-widget form button[type=submit] {
+    color: #306014;
+}
+.search-widget form button[type=submit] .search:hover {
+    color: #306014;
+}
