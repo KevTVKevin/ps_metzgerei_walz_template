@@ -47,6 +47,12 @@
                     <div class="clearfix"></div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-12">
+                    {hook h='displayTop2'}
+                    <div class="clearfix"></div>
+                </div>
+            </div>
             <div id="mobile_top_menu_wrapper" class="row hidden-md-up" style="display:none;">
                 <div class="js-top-menu mobile" id="_mobile_top_menu"></div>
                 <div class="js-top-menu-bottom">
