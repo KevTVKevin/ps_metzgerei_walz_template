@@ -114,6 +114,18 @@ search module
 .search-widget form button[type=submit] .search:hover {
     color: #306014;
 }
+.search-widget form input[type=text]:focus {
+    outline: 1px solid #ededed;
+}
+.header-top .search-widget form input[type=text] {
+    background-color: #ededed;
+}
+.header-top .search-widget form input[type=text]::placeholder {
+    color: #306014;
+}
+.search-widget form input[type=text]:focus+button .search {
+    color: #306014;
+}
 /*
 Footer styles
  */
@@ -137,6 +149,54 @@ footer#footer {
     color: #306014;
     border-left: 2px solid #306014;
     font-weight: bold;
+}
+#footer .btn-primary {
+    background-color: #c1c54a;
+    color: #306014;
+}
+.block_newsletter form input[type=email]:focus {
+    border: none;
+    border-right: 1px solid #306014;
+    padding: 11px;
+}
+.block_newsletter form input[type=email] {
+    background-color: #c1c54a;
+    border: none;
+    border-right: 1px solid #306014;
+}
+.block_newsletter form input[type=email]::placeholder {
+    color: #306014;
+}
+/*
+Prestashop clsssic colors
+ */
+.btn-primary {
+    background-color: #306014;
+    color: #ededed;
+}
+li.product-flag {
+    background-color: #306014;
+}
+.tabs .nav-tabs .nav.link.active, .tabs .nav-tabs .nav-link:hover {
+    border-color: #306014;
+}
+.tabs .nav-tabs .nav.link.active {
+    color: #306014;
+}
+.product-price {
+    color: #306014;
+}
+.product-images>li.thumb-container>.thumb.selected, .product-images>li.thumb-container>.thumb:hover {
+    border: 3px solid #306014;
+}
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+    border-color: #2b2b2b;
+}
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+    border: none;
+}
+.btn-primary.focus, .btn-primary:focus, .btn-primary {
+    border: none;
 }
 /*
 header-nav phone styles
