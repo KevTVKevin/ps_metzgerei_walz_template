@@ -154,6 +154,9 @@ footer#footer {
     background-color: #c1c54a;
     color: #306014;
 }
+#footer .btn-primary:hover, #footer .btn-primary:focus {
+    background-color: #9da200;
+}
 .block_newsletter form input[type=email]:focus {
     border: none;
     border-right: 1px solid #306014;
@@ -174,13 +177,11 @@ Prestashop clsssic colors
     background-color: #306014;
     color: #ededed;
 }
-li.product-flag {
+.product-flags li.product-flag {
     background-color: #306014;
 }
-.tabs .nav-tabs .nav.link.active, .tabs .nav-tabs .nav-link:hover {
+.tabs .nav-tabs .nav-link.active, .tabs .nav-tabs .nav-link:hover {
     border-color: #306014;
-}
-.tabs .nav-tabs .nav.link.active {
     color: #306014;
 }
 .product-price {
@@ -194,9 +195,25 @@ li.product-flag {
 }
 .btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
     border: none;
+    background-color: #9da200;
 }
 .btn-primary.focus, .btn-primary:focus, .btn-primary {
     border: none;
+}
+.block_newsletter {
+    background-color: #306014;
+}
+#product-modal .modal-content .modal-body .product-images img:hover {
+    border: 3px solid #306014;
+}
+/*
+Link color
+*/
+a {
+    color: #306014;
+}
+a:hover, a:focus {
+    color: #306014;
 }
 /*
 header-nav phone styles
