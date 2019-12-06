@@ -100,10 +100,17 @@ ul.dropdown-menu.hidden-sm-down li:hover {
 header-top styles
  */
 #header .header-top a[data-depth="0"] {
-    color: #306014;
+    background-color: #306014;
+    color: #ededed;
+    padding: 11px;
 }
 #header .header-top a[data-depth="0"]:hover {
-    color: #306014;
+    color: #ededed;
+    background-color: #2b2b2b;
+}
+.header-top .top-menu {
+    display: flex;
+    flex-direction: row;
 }
 /*
 search module
@@ -193,7 +200,7 @@ Prestashop clsssic colors
 .btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
     border-color: #2b2b2b;
 }
-.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover, .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary:disabled.focus, .btn-primary:disabled:focus, .btn-primary:disabled:hover, .btn-primary.active, .btn-primary:active, .open>.btn-primary.dropdown-toggle {
     border: none;
     background-color: #9da200;
 }
@@ -206,6 +213,40 @@ Prestashop clsssic colors
 #product-modal .modal-content .modal-body .product-images img:hover {
     border: 3px solid #306014;
 }
+.bootstrap-touchspin .group-span-filestyle .btn-touchspin, .group-span-filestyle .bootstrap-touchspin .btn-touchspin, .group-span-filestyle .btn-default {
+    background-color: #306014;
+    font-weight: bold;
+}
+.alert-danger {
+    background-color: #d84848;
+    border-color: #730000;
+    font-weight: bold;
+}
+#products .product-miniature .discount-amount, #products .product-miniature .discount-percentage, #products .product-miniature .on-sale, #products .product-miniature .online-only, #products .product-miniature .pack, #products .product-miniature .product-flags .new, .featured-products .product-miniature .discount-amount, .featured-products .product-miniature .discount-percentage, .featured-products .product-miniature .on-sale, .featured-products .product-miniature .online-only, .featured-products .product-miniature .pack, .featured-products .product-miniature .product-flags .new, .product-accessories .product-miniature .discount-amount, .product-accessories .product-miniature .discount-percentage, .product-accessories .product-miniature .on-sale, .product-accessories .product-miniature .online-only, .product-accessories .product-miniature .pack, .product-accessories .product-miniature .product-flags .new, .product-miniature .product-miniature .discount-amount, .product-miniature .product-miniature .discount-percentage, .product-miniature .product-miniature .on-sale, .product-miniature .product-miniature .online-only, .product-miniature .product-miniature .pack, .product-miniature .product-miniature .product-flags .new {
+    background-color: #306014;
+}
+#products .highlighted-informations .quick-view:hover, .featured-products .highlighted-informations .quick-view:hover, .product-accessories .highlighted-informations .quick-view:hover, .product-miniature .highlighted-informations .quick-view:hover {
+    color: #306014;
+    text-decoration: underline;
+}
+#blockcart-modal .product-name {
+    color: #306014;
+}
+#header .header-nav .cart-preview.active {
+    background: #9da200;
+}
+.form-control:focus, .input-group.focus {
+    outline: .1875rem solid #306014;
+}
+.form-control:focus {
+    border-color: #306014;
+}
+/*
+Warenkorb
+ */
+.cart-grid-body a.label:hover {
+    color: #9da200;
+}
 /*
 Link color
 */
@@ -214,6 +255,22 @@ a {
 }
 a:hover, a:focus {
     color: #306014;
+    text-decoration: underline;
+}
+/*
+Colors for user pages
+ */
+.custom-radio input[type=radio]:checked+span {
+    background-color: #306014;
+}
+/*
+Image slider
+ */
+.carousel .carousel-item .caption {
+    color: #306012;
+}
+.carousel .carousel-item .caption .caption-description p {
+    color: #306012;
 }
 /*
 header-nav phone styles
@@ -255,5 +312,16 @@ header-top phone styles
     }
     #mobile_top_menu_wrapper .js-top-menu-bottom a {
         color: #ededed;
+    }
+}
+/*
+Image slider text position
+ */
+@media (min-width: 768px) {
+    .carousel .carousel-item .caption {
+        top: 48px;
+        right: 256px;
+        left: initial;
+        bottom: initial;
     }
 }
