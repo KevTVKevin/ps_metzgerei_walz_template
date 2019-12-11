@@ -248,6 +248,12 @@ Prestashop clsssic colors
     color: #306014;
 }
 /*
+Produkte
+ */
+.product-information span, #product-description-short span {
+    background-color: #ededed!important;
+}
+/*
 Warenkorb
  */
 #header .header-nav .cart-preview.active {
@@ -305,7 +311,7 @@ header-nav phone styles
     .top-logo>h1 {
         margin-bottom: 0;
     }
-    #header .header-nav .cart-preview.active {
+    #header .header-nav .cart-preview.active, #header .header-nav .cart-preview.inactive {
         height: 100%;
         padding: calc(.75rem + 5px) .75rem;
     }
@@ -357,6 +363,7 @@ header-top phone styles
     }
     .carousel .carousel-item .caption {
         right: 10%;
+        left: auto;
         text-align: right;
     }
     .block_newsletter, .links .title {
@@ -365,6 +372,12 @@ header-top phone styles
     .footer-container .links ul>li {
         border-bottom: none;
         background-color: #c1c54a;
+    }
+    /*
+    Footer
+     */
+    .footer-container li {
+        margin-bottom: 0;
     }
 }
 /*
@@ -376,5 +389,8 @@ Image slider text position
         right: 256px;
         left: initial;
         bottom: initial;
+    }
+    #header .header-nav .user-info, #header .header-nav .currency-selector, #header .header-nav .language-selector, #header .header-nav #_desktop_contact_link #contact-link {
+        margin-top: 0.875rem;
     }
 }
