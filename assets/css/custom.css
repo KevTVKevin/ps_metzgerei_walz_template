@@ -232,20 +232,32 @@ Prestashop clsssic colors
 #blockcart-modal .product-name {
     color: #306014;
 }
-#header .header-nav .cart-preview.active {
-    background: #9da200;
-}
 .form-control:focus, .input-group.focus {
     outline: .1875rem solid #306014;
 }
 .form-control:focus {
     border-color: #306014;
 }
+.brands-sort .select-list:hover, .products-sort-order .select-list:hover, .suppliers-sort .select-list:hover {
+    background: #306014;
+}
+.pagination .current a {
+    color: #306014;
+}
+.carousel .carousel-control .icon-next:hover i, .carousel .carousel-control .icon-prev:hover i {
+    color: #306014;
+}
 /*
 Warenkorb
  */
+#header .header-nav .cart-preview.active {
+    background: #9da200;
+}
 .cart-grid-body a.label:hover {
     color: #9da200;
+}
+#header .header-nav .cart-preview.active:hover {
+    background-color: #2B2B2B;
 }
 /*
 Link color
@@ -267,10 +279,10 @@ Colors for user pages
 Image slider
  */
 .carousel .carousel-item .caption {
-    color: #306012;
+    color: #306014;
 }
 .carousel .carousel-item .caption .caption-description p {
-    color: #306012;
+    color: #306014;
 }
 /*
 header-nav phone styles
@@ -287,6 +299,19 @@ header-nav phone styles
     #header a {
         color: #306014;
     }
+    #header .header-nav .top-logo {
+        padding-top: 5px;
+    }
+    .top-logo>h1 {
+        margin-bottom: 0;
+    }
+    #header .header-nav .cart-preview.active {
+        height: 100%;
+        padding: calc(.75rem + 5px) .75rem;
+    }
+    #menu-icon, #_mobile_user_info {
+        padding-top: 5px;
+    }
 }
 /*
 header-top phone styles
@@ -297,6 +322,7 @@ header-top phone styles
     }
     #header .header-top .search-widget {
         width: 100%;
+        margin-bottom: 8px;
     }
     #mobile_top_menu_wrapper {
         background-color: #2b2b2b;
@@ -304,14 +330,41 @@ header-top phone styles
     #mobile_top_menu_wrapper .top-menu li:hover {
         background-color: #484848;
     }
+    #mobile_top_menu_wrapper .top-menu a[data-depth="0"] {
+        border-bottom: 1px solid #2B2B2B;
+    }
     #header .header-top a[data-depth="0"] {
         color: #ededed;
     }
     #header .header-top a[data-depth="0"]:hover {
         color: #ededed;
+        background-color: #484848;
     }
     #mobile_top_menu_wrapper .js-top-menu-bottom a {
         color: #ededed;
+    }
+    .header-top .top-menu {
+        flex-direction: column;
+    }
+    .search-widget form button[type=submit] {
+        bottom: .8625rem;
+    }
+    .dropdown select {
+        color: #ffffff;
+        background: #484848;
+        width: 100%;
+        min-height: 40px;
+    }
+    .carousel .carousel-item .caption {
+        right: 10%;
+        text-align: right;
+    }
+    .block_newsletter, .links .title {
+        border-bottom: none;
+    }
+    .footer-container .links ul>li {
+        border-bottom: none;
+        background-color: #c1c54a;
     }
 }
 /*
